@@ -18,11 +18,11 @@ This project is a Solidity smart contract built for funding purposes. It allows 
 
 1. Clone the repository:
 
-   ````bash
+   ```bash
    git clone https://github.com/caducus7/Fund-Me-Foundry.git
-   cd Fund-Me-Foundry```
+   cd Fund-Me-Foundry
 
-   ````
+   ```
 
 2. Install dependencies:
 
