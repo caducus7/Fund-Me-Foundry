@@ -1,0 +1,19 @@
+[33mcommit 71a04f3d583d25cdd0b8e00e11aa4dfb0472fe17[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Caducus <stefanoskissas@hotmail.com>
+Date:   Tue Oct 15 14:39:16 2024 +0300
+
+    FundMe commit
+
+[33mcommit b8ffa074a824a5d864a2ceff34a2b3a8dcba7d76[m
+Author: Caducus <stefanoskissas@hotmail.com>
+Date:   Wed Oct 9 18:48:17 2024 +0300
+
+    forge install: forge-std
+    
+    v1.9.3
+
+[33mcommit daa3a35b67544536f86040d9c2451a41a00a4412[m
+Author: Caducus <stefanoskissas@hotmail.com>
+Date:   Wed Oct 9 18:48:15 2024 +0300
+
+    chore: forge init
