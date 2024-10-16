@@ -39,10 +39,6 @@ contract InteractionsTest is Test {
         assert(address(fundMe).balance == 0);
         assertEq(afterUserBalance + SEND_VALUE, preUserBalance);
         // Assert that the difference in owner's balance is close to SEND_VALUE, allowing for gas costs
-        assertApproxEqAbs(
-            afterOwnerBalance - preOwnerBalance,
-            SEND_VALUE,
-            1e18
-        );
+        assertApproxEqAbs(afterOwnerBalance - preOwnerBalance, SEND_VALUE, 1e18);
     }
 }

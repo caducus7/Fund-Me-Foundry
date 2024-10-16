@@ -70,9 +70,7 @@ contract FundMeTest is Test {
 
         //Assert
         assert(
-            fundMe.getOwner().balance ==
-                startingFundMeBalance + startingOwnerBalance &&
-                address(fundMe).balance == 0
+            fundMe.getOwner().balance == startingFundMeBalance + startingOwnerBalance && address(fundMe).balance == 0
         );
     }
 
@@ -93,10 +91,7 @@ contract FundMeTest is Test {
         fundMe.withdraw();
 
         //Assert
-        assert(
-            startingFundMeBalance + startingOwnerBalance ==
-                fundMe.getOwner().balance
-        );
+        assert(startingFundMeBalance + startingOwnerBalance == fundMe.getOwner().balance);
         assert(address(fundMe).balance == 0);
     }
 
@@ -117,10 +112,7 @@ contract FundMeTest is Test {
         fundMe.withdrawCheaper();
 
         //Assert
-        assert(
-            startingFundMeBalance + startingOwnerBalance ==
-                fundMe.getOwner().balance
-        );
+        assert(startingFundMeBalance + startingOwnerBalance == fundMe.getOwner().balance);
         assert(address(fundMe).balance == 0);
     }
 }
